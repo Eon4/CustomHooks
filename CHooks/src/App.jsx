@@ -5,11 +5,8 @@ import { useFetch } from './components/customHooks'
 function App() {
   const [data] = useFetch("https://jsonplaceholder.typicode.com/todos")
 
-
-
 return (
   <>
-
   <h1>Hello world</h1>
   <h2>Lets build something together with custom hooks</h2>
   
